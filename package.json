@@ -1,6 +1,6 @@
 {
   "name": "localinstall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pack and install your npm package into itself",
   "main": "index.js",
   "bin": {
