@@ -6,6 +6,9 @@
   "bin": {
     "localinstall": "localinstall.js"
   },
+  "files": [
+    "index.js", "localinstall.js"
+  ],
   "scripts": {
     "clean": "npm uninstall localinstall",
     "prebuild": "npm run clean",
