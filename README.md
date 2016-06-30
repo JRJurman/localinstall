@@ -16,3 +16,11 @@ Then edit your package.json to include the command before your tests
   "test": "your-tests-here"
 }
 ```
+
+Now, in your tests, you can test your package as if it was installed by an end
+user.
+
+```javascript
+var mypackage = require('mypackage');
+...
+```
