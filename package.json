@@ -1,0 +1,33 @@
+{
+  "name": "localinstall",
+  "version": "0.0.1",
+  "description": "pack and install your npm package into itself",
+  "main": "index.js",
+  "bin": {
+    "localinstall": "localinstall.js"
+  },
+  "scripts": {
+    "clean": "npm uninstall localinstall",
+    "prebuild": "npm run clean",
+    "build": "node localinstall.js",
+    "test": "mocha tests/localinstall.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JRJurman/localinstall.git"
+  },
+  "author": {
+    "name": "Jesse Jurman",
+    "email": "j.r.jurman@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JRJurman/localinstall/issues"
+  },
+  "homepage": "https://github.com/JRJurman/localinstall#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "in-publish": "^2.0.0",
+    "mocha": "^2.5.3"
+  }
+}
