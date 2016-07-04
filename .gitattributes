@@ -1,0 +1,2 @@
+# We need to use lf line endings if we want linux / OS X to behave appropriately
+* text eol=lf
