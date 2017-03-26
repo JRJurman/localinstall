@@ -3,7 +3,7 @@ Pack and install your npm package into itself. This is useful if you want to run
 tests against the distributable that other npm users will be using, and not
 against the lib / dist in your own build.
 
-**Note**: this may not work in newer versions of Node.T 
+**Note**: This may not work in newer versions of Node. 
 To get a similar effect, run `npm link; npm link <package-name>`.
 
 ## Usage
